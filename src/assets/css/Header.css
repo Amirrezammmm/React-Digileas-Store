@@ -1,0 +1,200 @@
+@import './font.css';
+:root{
+    --navy-classic:#000080;
+    --half-navy:#001F3F;
+    --royal-dark-blue:#003366;
+    --oil-blue:#1A2A33;
+    --light-navy:#3B5998;
+    --gray-blue:#2C3E50;
+    --black-blue:#0A0A23;
+    --purple-blue:#191970;
+    --sky-blue:#0F52BA;
+    --galaxy-blue-1: #BFD4FF;
+    --galaxy-blue-2: #6F91E0;
+    --galaxy-blue-3: #304CB2;
+    --galaxy-blue-4: #1E3264;
+    --galaxy-blue-5: #111B34;
+    --Royal-purple-1: #D2B6FF;
+    --Royal-purple-2: #A678E2;
+    --Royal-purple-3: #6B3FA0;
+    --Royal-purple-4: #43215E;
+    --Royal-purple-5: #240F31;
+    --navy-pallet-1 : #0A2342;
+    --navy-pallet-2 : #D4AF37;
+    --navy-pallet-3:  #F0E68C; 
+    --navy-pallet-4:  #F8F9FA; 
+    --navy-pallet-5:  #2C2C2C;
+    --navy-purple-1:  #0A2342;
+    --navy-purple-2:  #7851A9;
+    --navy-purple-3:  #E6E6FA;
+    --navy-purple-4:  #F5F5F5;
+    --navy-purple-5:  #000000;
+        --navy: #0E2148;
+    --dark-purple: #483AA0;
+    --light-purple: #7965C1;
+    --beige: #E3D095;  
+}
+*{
+    font-family: 'IRANsans';
+}
+.Header{
+    background: linear-gradient(to right, white 99%, #df2b2c 1%);
+    width: 100%;
+    margin: 0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.h_container{
+    /* background-color: var(--galexy-blue-5); */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    direction: rtl;
+    width: 100%;
+}
+.logo{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo h3{
+    font-family: "Playwrite AU QLD", cursive;
+    font-weight: bold;
+    word-spacing: 1px;
+}
+.logo a img{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    /* padding-top: 20px;
+    padding-bottom: 10px; */
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.menu_item a{
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.menu_item a:hover{
+    color:#df2b2c ;
+    transform: translateY(-3px);
+}
+.menu_item  a{
+    color: #505050;
+    font-size: 13px;
+}
+.actions{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 0 20px;
+    align-items: center;
+}
+.shop_basket{
+    padding: 5px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 40px;
+    color: white;
+    position: relative;
+    transition: all 0.3s ease;
+    background-color: #ffecec;
+    border: none;
+    outline: none;
+}
+.shop_basket:hover{
+    border: none;
+    outline: none;
+    transform: translateY(-5px);    
+}
+.login{
+    background-color: #ffecec;
+    font-size: 13px;
+    color: rgb(65, 63, 63);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    outline: none;
+    border: none;
+}
+.login:hover{
+    border: none;
+    outline: none;
+    transform: translateY(-5px);  
+}
+.shop_basket img{
+    width: 20px;
+    height: 20px;
+}
+.cart-count{
+    position: absolute;
+    top: -8px;  
+    right: -8px; 
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 8% 8px; 
+    min-width: 20px; 
+    text-align: center;
+}
+.searchIcon{
+    color: rgb(148, 146, 146);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+.searchIcon:hover{
+    cursor:auto;
+    border: none;
+    outline: none;
+}
+.searchBar{
+    outline: none;
+    border:  none;
+    background-color: transparent;
+    width: 85%;
+    height: 100%;
+}
+.searchBar::placeholder{
+    color: #cbcbc2 !important;
+
+}
+.search{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 80%;
+}
+/*  max-width:967px  */
+@media (max-width: 967px){
+    .menu_item  a{
+        font-size: 11px;
+    }
+    .menu ul{
+        gap: 18px;
+    }
+}
+@media (max-width: 887px){
+    .searchBar{
+        width: 80%;
+    }
+}

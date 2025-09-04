@@ -1,0 +1,92 @@
+:root{
+    --navy-classic:#000080;
+    --half-navy:#001F3F;
+    --royal-dark-blue:#003366;
+    --oil-blue:#1A2A33;
+    --light-navy:#3B5998;
+    --gray-blue:#2C3E50;
+    --black-blue:#0A0A23;
+    --purple-blue:#191970;
+    --sky-blue:#0F52BA;
+    --navy-classic-light: #b3b3ff;       /* روشن‌شده‌ی #000080 */
+    --half-navy-light: #ccd9ff;          /* روشن‌شده‌ی #001F3F */
+    --royal-dark-blue-light: #c2d1e0;    /* روشن‌شده‌ی #003366 */
+    --oil-blue-light: #d6e2e8;           /* روشن‌شده‌ی #1A2A33 */
+    --light-navy-light: #d6dfee;         /* روشن‌شده‌ی #3B5998 */
+    --gray-blue-light: #d0dbe5;          /* روشن‌شده‌ی #2C3E50 */
+    --black-blue-light: #d1d1e6;         /* روشن‌شده‌ی #0A0A23 */
+    --purple-blue-light: #c0c0ff;        /* روشن‌شده‌ی #191970 */
+    --sky-blue-light: #b3ccff;           /* روشن‌شده‌ی #0F52BA */
+    --galaxy-blue-1: #BFD4FF;
+    --galaxy-blue-2: #6F91E0;
+    --galaxy-blue-3: #304CB2;
+    --galaxy-blue-4: #1E3264;
+    --galaxy-blue-5: #111B34;
+    --Royal-purple-1: #D2B6FF;
+    --Royal-purple-2: #A678E2;
+    --Royal-purple-3: #6B3FA0;
+    --Royal-purple-4: #43215E;
+    --Royal-purple-5: #240F31;
+    --navy-pallet-1 : #0A2342;
+    --navy-pallet-2 : #D4AF37;
+    --navy-pallet-3:  #F0E68C; 
+    --navy-pallet-4:  #F8F9FA; 
+    --navy-pallet-5:  #2C2C2C;
+    --navy-purple-1:  #0A2342;
+    --navy-purple-2:  #7851A9;
+    --navy-purple-3:  #E6E6FA;
+    --navy-purple-4:  #F5F5F5;
+    --navy-purple-5:  #000000; 
+        --navy: #0E2148;
+    --dark-purple: #483AA0;
+    --light-purple: #7965C1;
+    --beige: #E3D095; 
+    --purple-1:#7a73d196; 
+}
+.container {
+	direction: rtl;
+	padding: 20px;
+	margin: 20px;
+}
+.container h2{
+    text-align: center;
+}
+.tabs {
+	display: grid;
+	grid-template-columns: repeat(4, 2fr);
+    margin-top: 50px;
+    gap: 20px;
+}
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    width: 291px;
+    height: 150px;
+    background: linear-gradient(135deg, #cc0f0f, #ff6666, #fff5f5);
+    transition: all 0.3s ease;
+    border-radius: 16px;
+    color: #0A0A23;
+}
+.tab:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    color: #000080;
+}
+.hp{
+    width: 200px;
+    height: 100px;
+}
+.acer{
+    width: 200px;
+    height: 70px;
+}
+.asus{
+    width: 200px;
+    height: 60px;
+}
+.lenovo{
+    width: 200px;
+    height: 60px;
+}

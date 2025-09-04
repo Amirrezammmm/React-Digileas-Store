@@ -1,0 +1,128 @@
+:root{
+    --navy-classic:#000080;
+    --half-navy:#001F3F;
+    --royal-dark-blue:#003366;
+    --oil-blue:#1A2A33;
+    --light-navy:#3B5998;
+    --gray-blue:#2C3E50;
+    --black-blue:#0A0A23;
+    --purple-blue:#191970;
+    --sky-blue:#0F52BA;
+    --galaxy-blue-1: #BFD4FF;
+    --galaxy-blue-2: #6F91E0;
+    --galaxy-blue-3: #304CB2;
+    --galaxy-blue-4: #1E3264;
+    --galaxy-blue-5: #111B34;
+    --Royal-purple-1: #D2B6FF;
+    --Royal-purple-2: #A678E2;
+    --Royal-purple-3: #6B3FA0;
+    --Royal-purple-4: #43215E;
+    --Royal-purple-5: #240F31;
+    --navy-pallet-1 : #0A2342;
+    --navy-pallet-2 : #D4AF37;
+    --navy-pallet-3:  #F0E68C; 
+    --navy-pallet-4:  #F8F9FA; 
+    --navy-pallet-5:  #2C2C2C; 
+    --navy-purple-1:  #0A2342;
+    --navy-purple-2:  #7851A9;
+    --navy-purple-3:  #E6E6FA;
+    --navy-purple-4:  #F5F5F5;
+    --navy-purple-5:  #000000; 
+        --navy: #0E2148;
+    --dark-purple: #483AA0;
+    --light-purple: #7965C1;
+    --beige: #E3D095; 
+}
+.Footer {
+  background-color: white;
+  color: #505050  ;
+  /* padding: 2rem 1rem 1rem; */
+  direction: rtl;
+  font-size: 14px;
+  margin-top: 3rem;
+  width: 100vw;
+}
+
+.footer_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 2rem 2rem 2rem;
+  gap: 2rem;
+}
+
+.footer_col h4 {
+  margin-bottom: 1rem;
+  font-size: 16px;
+  color: #505050;
+}
+
+.footer_col p {
+  color: #505050;
+  line-height: 1.6;
+}
+
+.footer_col ul {
+  list-style: none;
+  padding: 0;
+  color: #505050;
+}
+
+.footer_col ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer_bottom {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 1rem;
+  font-size: 13px;
+  color: #505050;
+}
+.footer_col img{
+    width: 70px;
+    height: 70px;
+}
+.logo_foot{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo_foot img{
+  width: 200px;
+}
+.timeLine{
+  width: 100vw;
+  background: linear-gradient(to bottom, #ffecec 95%, #df2b2c 5%);
+  padding: 0 120px;
+}
+.items{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  align-items: center;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+.image img{
+  width: 50px;
+}
+.title{
+  color: #6e6e60  ;
+  font-size: 14px;
+}
+.tip{
+  color: #df2b2c;
+  font-size: 10px;
+}
+.note{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
