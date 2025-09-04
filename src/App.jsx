@@ -6,7 +6,7 @@ import Acer from './assets/pages/Acer';
 import Asus from './assets/pages/Asus';
 import Lenovo from './assets/pages/Lenovo';
 import CartPage from './assets/pages/CartPage';
-import Categories from './assets/components/categories';
+import Categories from './assets/components/Categories';
 import CategoryTemplate from './assets/components/CategoryTemplate'
 import { CartProvider } from "./assets/context/CartContext";
 import './App.css';
